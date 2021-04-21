@@ -12,7 +12,7 @@ if(url.hash) {
     var id = hash.slice(1);
     window.location.href = "http://host3958.itelit.pro/luctisity/studios/" + id + ".php";
   } else {
-    alert('bad luct.tk url: unknown type "' + hash[0] + '".');
+    window.location.href = 'luct.ml/badurl.html';
   }
 }
 
