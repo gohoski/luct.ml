@@ -11,7 +11,9 @@ if(url.hash) {
   } else if(hash.startsWith("s")) {
     var id = hash.slice(1);
     window.location.href = "http://host3958.itelit.pro/luctisity/studios/" + id + ".php";
-  } else {
+  } else if(hash == 'home'){
+	    window.location.href = 'http://host3958.itelit.pro/luctisity/';
+	    } else {
     window.location.href = 'http://luct.ml/404.html';
   }
 }
