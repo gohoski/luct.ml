@@ -13,6 +13,8 @@ if(url.hash) {
     window.location.href = "http://host3958.itelit.pro/luctisity/studios/" + id + ".php";
   } else if(hash == 'home'){
 	    window.location.href = 'http://host3958.itelit.pro/luctisity/';
+	    } else if (hash === 'ds') {
+	    window.location.href = 'https://discord.gg/cUAfqvf';
 	    } else {
     window.location.href = 'http://luct.ml/404.html';
   }
